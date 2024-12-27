@@ -126,4 +126,4 @@ Additionally, you can use the `-i` flag when compiling through the command line 
 ## Conclusion
 That's all! You should now know how all methods on **compiling** SourceMod plugins.
 
-If you have any questions or have feedback, please reply to this topic!
+If you have any questions or have feedback, please reply to [this](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194) topic!
