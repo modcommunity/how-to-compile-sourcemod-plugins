@@ -7,6 +7,15 @@ The programming language associated with SourceMod plugin's source code is [Sour
 Compiling SourceMod plugins is quite easy and will be explained below.
 
 ## Table Of Contents
+* [Downloading SourceMod](#downloading-sourcemod)
+* [Compiling SourceMod Plugins](#compiling-sourcemod-plugins)
+  * [Windows](#windows)
+    * [Windows File Explorer](#windows-file-explorer)
+    * [Command Line](#command-line)
+  * [Linux](#linux)
+* [Additional Command Line Options](#additional-command-line-options)
+* [Include Files](#include-files)
+* [Conclusion](#conclusion)
 
 ## Downloading SourceMod
 Refer to the following guide on how to download and extract SourceMod. You do **not** need to install SourceMod onto your server to build plugins.
@@ -15,8 +24,9 @@ https://forum.moddingcommunity.com/t/how-to-install-update-metamod-sourcemod/60
 
 After extracting the SourceMod files, go to the `addons/sourcemod/scripting` directory on Linux (or `addons\sourcemod\scripting` folder on Windows).
 
-## Building SourceMod Plugins
-Building SourceMod plugins is usually quite easy, especially on Windows.
+## Compiling SourceMod Plugins
+Compiling SourceMod plugins is usually quite easy, especially on Windows.
+
 ### Windows
 #### Windows File Explorer
 If you want to quickly compile plugins, you can drag and drop the plugin's source code file into the `compile.exe` executable located in the `scripting` folder. A Command Prompt window will open and you'll see the output of the build. If the build was successful, you'll see the built plugins inside of the `compiled` folder. Built SourceMod plugins typically have the `smx` file extension.
@@ -59,7 +69,7 @@ For example, if we want to compile the included `basechat` plugin, we'd use the 
 
 If the build was successful, you'll see the new built plugin file in the same directory as the source code (`scripting/`).
 
-## Additional CLI Options
+## Additional Command Line Options
 As stated above, compiling plugins through the command line allows you to set additional options. Here is the help menu output which provides a list of flags and arguments you may set.
 
 ```
@@ -105,7 +115,7 @@ For example, on Linux, if want the successfully built `basechat` plugin to go in
 mkdir -p compiled
 
 # Output: compiled/basechat.smx
-./spcomp -o compiled/basechat
+./spcomp -o compiled/basechat basechat.sp
 ```
 
 ## Include Files
