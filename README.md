@@ -6,6 +6,8 @@ The programming language associated with SourceMod plugin's source code is [Sour
 
 Compiling SourceMod plugins is quite easy and will be explained below.
 
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194)
+
 ## Table Of Contents
 * [Downloading SourceMod](#downloading-sourcemod)
 * [Compiling SourceMod Plugins](#compiling-sourcemod-plugins)
@@ -31,7 +33,7 @@ Compiling SourceMod plugins is usually quite easy, especially on Windows.
 #### Windows File Explorer
 If you want to quickly compile plugins, you can drag and drop the plugin's source code file into the `compile.exe` executable located in the `scripting` folder. A Command Prompt window will open and you'll see the output of the build. If the build was successful, you'll see the built plugins inside of the `compiled` folder. Built SourceMod plugins typically have the `smx` file extension.
 
-![Drag And Drop GIF](./images/gui-dnd.gif)
+![Drag And Drop GIF](https://github.com/modcommunity/how-to-compile-sourcemod-plugins/raw/main/images/gui-dnd.gif)
 
 While this method is quick and easy, the command line method explained below includes **more options** you can set.
 
@@ -126,4 +128,6 @@ Additionally, you can use the `-i` flag when compiling through the command line 
 ## Conclusion
 That's all! You should now know how all methods on **compiling** SourceMod plugins.
 
-If you have any questions or have feedback, please reply to [this](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194) topic!
+If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194)! This guide will be worked and improved on over time.
+
+Join our [Discord server](https://discord.moddingcommunity.com)!
