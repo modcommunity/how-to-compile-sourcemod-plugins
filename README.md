@@ -6,7 +6,7 @@ The programming language associated with SourceMod plugin's source code is [Sour
 
 Compiling SourceMod plugins is quite easy and will be explained below.
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-compile-sourcemod-plugins/)
 
 ## Table Of Contents
 * [Downloading SourceMod](#downloading-sourcemod)
@@ -128,6 +128,6 @@ Additionally, you can use the `-i` flag when compiling through the command line 
 ## Conclusion
 That's all! You should now know how all methods on **compiling** SourceMod plugins.
 
-If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194)! This guide will be worked and improved on over time.
+If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/502)! This guide will be worked and improved on over time.
 
 Join our [Discord server](https://discord.moddingcommunity.com)!
