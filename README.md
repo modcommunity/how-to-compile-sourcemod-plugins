@@ -22,7 +22,7 @@ Compiling SourceMod plugins is quite easy and will be explained below.
 ## Downloading SourceMod
 Refer to the following guide on how to download and extract SourceMod. You do **not** need to install SourceMod onto your server to build plugins.
 
-https://forum.moddingcommunity.com/t/how-to-install-update-metamod-sourcemod/60
+https://blog.moddingcommunity.com/how-to-install-update-sourcemod-metamod/
 
 After extracting the SourceMod files, go to the `addons/sourcemod/scripting` directory on Linux (or `addons\sourcemod\scripting` folder on Windows).
 
